@@ -1,0 +1,213 @@
+  header,
+  body {
+    font-family: 'Poppins';
+  }
+
+  body {
+    background-color: #faf8f8a4;
+  }
+
+  section {
+    padding-top: 5rem !important;
+  }
+
+  /* header */
+  .jumbotron {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(22, 22, 22, 0.7)), url("https://www.pandagaul.com/wp-content/uploads/2021/03/paris.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .text-light {
+    color: #fff !important;
+  }
+  .jumbotron .fab {
+    color: white;
+    margin: auto 5px;
+    padding: 10px;
+    text-align: center;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .about .content {
+    padding: 30px 0;
+  }
+  .about .content h3 {
+    font-weight: 500;
+    font-size: 34px;
+    color: #0c263f;
+  }
+  .about .content p {
+    text-justify: auto;
+  }
+  .about .content .count-box {
+    padding: 20px 0;
+    width: 100%;
+  }
+  .about .content .count-box i {
+    display: block;
+    font-size: 36px;
+    color: #db6196;
+    float: left;
+  }
+  .about .content .count-box span {
+    font-size: 36px;
+    line-height: 20px;
+    display: block;
+    font-weight: 700;
+    color: #2c4964;
+    margin-left: 50px;
+  }
+  .about .content .count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 50px;
+    font-size: 14px;
+    color: #23405a;
+  }
+  .about .content .count-box a {
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+    color: #437099;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+  }
+  .about .content .count-box a:hover {
+    color: #6b96be;
+  }
+  .about .image {
+    background: url("asset/melan.jpeg") center center no-repeat;
+    background-size: cover;
+    min-height: 350px;
+  }
+
+  .experiences .experiences-title {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #4b7dab;
+  }
+  .experiences .experiences-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #d43076;
+    position: relative;
+  }
+  .experiences .experiences-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c4964;
+    margin-bottom: 10px;
+  }
+  .experiences .experiences-item h5 {
+    font-size: 16px;
+    background: #e4ebf3;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  .experiences .experiences-item ul {
+    padding-left: 20px;
+  }
+  .experiences .experiences-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #d43076;
+  }  
+  
+  .skills .card-body {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.2);
+    border-radius: 8px;
+    text-align: center;
+  }
+  .certificate .icon-box {
+    padding: 20px 15px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.2);
+    border-radius: 8px;
+    text-align: center;
+  }
+  .certificate .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .certificate .title a {
+    color: #111;
+  }
+  .certificate .description {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+  .contact .contact-about h3 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #da568f;
+  }
+  .contact .contact-about p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #3c6387;
+  }
+  .contact .social-links {
+  padding-bottom: 20px;
+  }
+  .contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #d43076;
+  line-height: 0;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border: 1px solid #d43076;
+  }
+  .contact .info {
+  color: #5a656e;
+  }
+  .contact .info i {
+  font-size: 32px;
+  color: #d43076;
+  line-height: 0;
+  margin-right: 20px;
+  }
+  .contact .info p {
+  font-size: 15px;
+  margin: 0px;
+  }
+  .contact .php-email-form button[type=submit] {
+  background: #d43076;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  }
+  .contact .php-email-form button[type=submit]:hover {
+  background: #dd5a92;
+  }
